@@ -5,9 +5,12 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="70a56957-3fca-4034-9edf-344a513a11d0" name="Default" comment="" />
-    <ignored path="S1023336_lab4.iws" />
+    <list default="true" id="ed755ebd-cebb-4c1c-843e-ef1df5bca994" name="Default" comment="" />
+    <ignored path="EmbeddedSystemHomework_Robotium.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,28 +32,122 @@
     </system>
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="S1023336_lab4" />
+    <favorites_list name="EmbeddedSystemHomework_Robotium" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/s1023336/lab4/hw/s1023336_lab4/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.029780565">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1132#1144#0" expanded="true" />
+                <element signature="e#3924#6183#0" expanded="true" />
+                <element signature="e#4240#4264#0" expanded="true" />
+                <element signature="e#4297#4321#0" expanded="true" />
+                <element signature="e#4416#4439#0" expanded="true" />
+                <element signature="e#4472#4495#0" expanded="true" />
+                <element signature="e#4590#4613#0" expanded="true" />
+                <element signature="e#4646#4669#0" expanded="true" />
+                <element signature="e#4764#4789#0" expanded="true" />
+                <element signature="e#4822#4847#0" expanded="true" />
+                <element signature="e#4942#4966#0" expanded="true" />
+                <element signature="e#4999#5023#0" expanded="true" />
+                <element signature="e#5118#5142#0" expanded="true" />
+                <element signature="e#5175#5199#0" expanded="true" />
+                <element signature="e#5294#5317#0" expanded="true" />
+                <element signature="e#5350#5373#0" expanded="true" />
+                <element signature="e#5468#5493#0" expanded="true" />
+                <element signature="e#5526#5551#0" expanded="true" />
+                <element signature="e#5646#5671#0" expanded="true" />
+                <element signature="e#5704#5729#0" expanded="true" />
+                <element signature="e#5824#5848#0" expanded="true" />
+                <element signature="e#5881#5905#0" expanded="true" />
+                <element signature="e#6002#6025#0" expanded="true" />
+                <element signature="e#6058#6081#0" expanded="true" />
+                <element signature="e#6182#6183#0" expanded="true" />
+                <element signature="e#6238#14950#0" expanded="true" />
+                <element signature="e#7997#8020#0" expanded="true" />
+                <element signature="e#9338#9361#0" expanded="true" />
+                <element signature="e#10679#10702#0" expanded="true" />
+                <element signature="e#12095#12118#0" expanded="true" />
+                <element signature="e#12581#12603#0" expanded="true" />
+                <element signature="e#12982#13011#0" expanded="true" />
+                <element signature="e#13531#13553#0" expanded="true" />
+                <element signature="e#13870#13901#0" expanded="true" />
+                <element signature="e#13944#13969#0" expanded="true" />
+                <element signature="e#14763#14785#0" expanded="true" />
+                <element signature="e#14949#14950#0" expanded="true" />
+                <element signature="e#15027#15231#0" expanded="true" />
+                <element signature="e#15230#15231#0" expanded="true" />
+                <element signature="e#15287#16360#0" expanded="true" />
+                <element signature="e#15789#15818#0" expanded="true" />
+                <element signature="e#16233#16255#0" expanded="true" />
+                <element signature="e#16359#16360#0" expanded="true" />
+                <element signature="e#16408#16567#0" expanded="true" />
+                <element signature="e#16566#16567#0" expanded="true" />
+                <element signature="e#16628#19504#0" expanded="true" />
+                <element signature="e#19503#19504#0" expanded="true" />
+                <element signature="e#19708#19709#0" expanded="true" />
+                <element signature="e#19735#19736#0" expanded="true" />
+                <element signature="e#21081#21103#0" expanded="true" />
+                <element signature="e#22227#22249#0" expanded="true" />
+                <element signature="e#23106#23128#0" expanded="true" />
+                <element signature="e#23983#24005#0" expanded="true" />
+                <element signature="e#24705#24727#0" expanded="true" />
+                <element signature="e#25725#25747#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer">
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-26.733334">
+              <caret line="262" column="0" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
+              <folding>
+                <element signature="e#301#336#0" expanded="true" />
+                <element signature="e#362#397#0" expanded="true" />
+                <element signature="e#421#454#0" expanded="true" />
+                <element signature="e#481#514#0" expanded="true" />
+                <element signature="e#1215#1228#0" expanded="true" />
+                <element signature="e#1480#1493#0" expanded="true" />
+                <element signature="e#1746#1759#0" expanded="true" />
+                <element signature="e#2492#2507#0" expanded="true" />
+                <element signature="e#2769#2782#0" expanded="true" />
+                <element signature="e#3034#3047#0" expanded="true" />
+                <element signature="e#3494#3509#0" expanded="true" />
+                <element signature="e#3754#3769#0" expanded="true" />
+                <element signature="e#4014#4028#0" expanded="true" />
+                <element signature="e#4305#4318#0" expanded="true" />
+                <element signature="e#4814#4828#0" expanded="true" />
+                <element signature="e#5169#5183#0" expanded="true" />
+                <element signature="e#5524#5537#0" expanded="true" />
+                <element signature="e#5875#5888#0" expanded="true" />
+                <element signature="e#6383#6396#0" expanded="true" />
+                <element signature="e#6682#6695#0" expanded="true" />
+                <element signature="e#6983#6998#0" expanded="true" />
+                <element signature="e#7240#7253#0" expanded="true" />
+                <element signature="e#7702#7716#0" expanded="true" />
+                <element signature="e#7969#7984#0" expanded="true" />
+                <element signature="e#8229#8242#0" expanded="true" />
+                <element signature="e#8494#8507#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/s1023336/lab4/hw/s1023336_lab4/MainActivity.java">
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-19.0">
+              <caret line="28" column="83" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -64,7 +161,7 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="S1023336_lab4" />
+              <option name="name" value="EmbeddedSystemHomework_Robotium" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
@@ -75,7 +172,7 @@
                 <option name="path" value="$PROJECT_DIR$/app" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="S1023336_lab4" />
+                <option name="name" value="EmbeddedSystemHomework_Robotium" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
@@ -93,17 +190,17 @@
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'S1023336_lab4'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'EmbeddedSystemHomework_Robotium'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'S1023336_lab4'." />
+                <option name="description" value="Displays all dependencies declared in root project 'EmbeddedSystemHomework_Robotium'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'S1023336_lab4'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'EmbeddedSystemHomework_Robotium'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -118,22 +215,22 @@
                 <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'S1023336_lab4'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'EmbeddedSystemHomework_Robotium'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'S1023336_lab4'." />
+                <option name="description" value="Displays the sub-projects of root project 'EmbeddedSystemHomework_Robotium'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'S1023336_lab4'." />
+                <option name="description" value="Displays the properties of root project 'EmbeddedSystemHomework_Robotium'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'S1023336_lab4' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'EmbeddedSystemHomework_Robotium' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -1168,7 +1265,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Users\Toro\AndroidStudioProjects\S1023336_lab4" value="4347156083160" />
+        <entry key="C:\Users\Toro\Desktop\EmbeddedSystemHomework_Robotium" value="4347156083160" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1484,6 +1581,15 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/s1023336/lab4/hw/s1023336_lab4/MainActivity.java" />
+      </list>
+    </option>
+  </component>
   <component name="NamedScopeManager">
     <order />
   </component>
@@ -1516,30 +1622,72 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="S1023336_lab4" />
+              <option name="myItemId" value="EmbeddedSystemHomework_Robotium" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="S1023336_lab4" />
+              <option name="myItemId" value="EmbeddedSystemHomework_Robotium" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="S1023336_lab4" />
+              <option name="myItemId" value="EmbeddedSystemHomework_Robotium" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmbeddedSystemHomework_Robotium" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmbeddedSystemHomework_Robotium" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1553,7 +1701,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="S1023336_lab4" />
+              <option name="myItemId" value="EmbeddedSystemHomework_Robotium" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1569,8 +1717,20 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EmbeddedSystemHomework_Robotium" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1735,10 +1895,10 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="70a56957-3fca-4034-9edf-344a513a11d0" name="Default" comment="" />
-      <created>1449052031992</created>
+      <changelist id="ed755ebd-cebb-4c1c-843e-ef1df5bca994" name="Default" comment="" />
+      <created>1449053139462</created>
       <option name="number" value="Default" />
-      <updated>1449052031992</updated>
+      <updated>1449053139462</updated>
     </task>
     <servers />
   </component>
@@ -1748,10 +1908,12 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -1764,15 +1926,14 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2580645" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1791,22 +1952,114 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.0">
+          <caret line="28" column="83" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.733334">
+          <caret line="262" column="0" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
+          <folding>
+            <element signature="e#301#336#0" expanded="true" />
+            <element signature="e#362#397#0" expanded="true" />
+            <element signature="e#421#454#0" expanded="true" />
+            <element signature="e#481#514#0" expanded="true" />
+            <element signature="e#1215#1228#0" expanded="true" />
+            <element signature="e#1480#1493#0" expanded="true" />
+            <element signature="e#1746#1759#0" expanded="true" />
+            <element signature="e#2492#2507#0" expanded="true" />
+            <element signature="e#2769#2782#0" expanded="true" />
+            <element signature="e#3034#3047#0" expanded="true" />
+            <element signature="e#3494#3509#0" expanded="true" />
+            <element signature="e#3754#3769#0" expanded="true" />
+            <element signature="e#4014#4028#0" expanded="true" />
+            <element signature="e#4305#4318#0" expanded="true" />
+            <element signature="e#4814#4828#0" expanded="true" />
+            <element signature="e#5169#5183#0" expanded="true" />
+            <element signature="e#5524#5537#0" expanded="true" />
+            <element signature="e#5875#5888#0" expanded="true" />
+            <element signature="e#6383#6396#0" expanded="true" />
+            <element signature="e#6682#6695#0" expanded="true" />
+            <element signature="e#6983#6998#0" expanded="true" />
+            <element signature="e#7240#7253#0" expanded="true" />
+            <element signature="e#7702#7716#0" expanded="true" />
+            <element signature="e#7969#7984#0" expanded="true" />
+            <element signature="e#8229#8242#0" expanded="true" />
+            <element signature="e#8494#8507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/s1023336/lab4/hw/s1023336_lab4/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.029780565">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1132#1144#0" expanded="true" />
+            <element signature="e#3924#6183#0" expanded="true" />
+            <element signature="e#4240#4264#0" expanded="true" />
+            <element signature="e#4297#4321#0" expanded="true" />
+            <element signature="e#4416#4439#0" expanded="true" />
+            <element signature="e#4472#4495#0" expanded="true" />
+            <element signature="e#4590#4613#0" expanded="true" />
+            <element signature="e#4646#4669#0" expanded="true" />
+            <element signature="e#4764#4789#0" expanded="true" />
+            <element signature="e#4822#4847#0" expanded="true" />
+            <element signature="e#4942#4966#0" expanded="true" />
+            <element signature="e#4999#5023#0" expanded="true" />
+            <element signature="e#5118#5142#0" expanded="true" />
+            <element signature="e#5175#5199#0" expanded="true" />
+            <element signature="e#5294#5317#0" expanded="true" />
+            <element signature="e#5350#5373#0" expanded="true" />
+            <element signature="e#5468#5493#0" expanded="true" />
+            <element signature="e#5526#5551#0" expanded="true" />
+            <element signature="e#5646#5671#0" expanded="true" />
+            <element signature="e#5704#5729#0" expanded="true" />
+            <element signature="e#5824#5848#0" expanded="true" />
+            <element signature="e#5881#5905#0" expanded="true" />
+            <element signature="e#6002#6025#0" expanded="true" />
+            <element signature="e#6058#6081#0" expanded="true" />
+            <element signature="e#6182#6183#0" expanded="true" />
+            <element signature="e#6238#14950#0" expanded="true" />
+            <element signature="e#7997#8020#0" expanded="true" />
+            <element signature="e#9338#9361#0" expanded="true" />
+            <element signature="e#10679#10702#0" expanded="true" />
+            <element signature="e#12095#12118#0" expanded="true" />
+            <element signature="e#12581#12603#0" expanded="true" />
+            <element signature="e#12982#13011#0" expanded="true" />
+            <element signature="e#13531#13553#0" expanded="true" />
+            <element signature="e#13870#13901#0" expanded="true" />
+            <element signature="e#13944#13969#0" expanded="true" />
+            <element signature="e#14763#14785#0" expanded="true" />
+            <element signature="e#14949#14950#0" expanded="true" />
+            <element signature="e#15027#15231#0" expanded="true" />
+            <element signature="e#15230#15231#0" expanded="true" />
+            <element signature="e#15287#16360#0" expanded="true" />
+            <element signature="e#15789#15818#0" expanded="true" />
+            <element signature="e#16233#16255#0" expanded="true" />
+            <element signature="e#16359#16360#0" expanded="true" />
+            <element signature="e#16408#16567#0" expanded="true" />
+            <element signature="e#16566#16567#0" expanded="true" />
+            <element signature="e#16628#19504#0" expanded="true" />
+            <element signature="e#19503#19504#0" expanded="true" />
+            <element signature="e#19708#19709#0" expanded="true" />
+            <element signature="e#19735#19736#0" expanded="true" />
+            <element signature="e#21081#21103#0" expanded="true" />
+            <element signature="e#22227#22249#0" expanded="true" />
+            <element signature="e#23106#23128#0" expanded="true" />
+            <element signature="e#23983#24005#0" expanded="true" />
+            <element signature="e#24705#24727#0" expanded="true" />
+            <element signature="e#25725#25747#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

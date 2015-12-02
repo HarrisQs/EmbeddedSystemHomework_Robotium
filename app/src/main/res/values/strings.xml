@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">S1023336_lab4</string>
+    <string name="RealSpace">" "</string>
+    <string name="One">1</string>
+    <string name="Two">2</string>
+    <string name="Three">3</string>
+    <string name="Four">4</string>
+    <string name="Five">5</string>
+    <string name="Six">6</string>
+    <string name="Seven">7</string>
+    <string name="Eight">8</string>
+    <string name="Nine">9</string>
+    <string name="Zero">0</string>
+    <string name="Add">"+ "</string>
+    <string name="sub">"- "</string>
+    <string name="mul">"* "</string>
+    <string name="div">"/ "</string>
+    <string name="clean">Clean</string>
+    <string name="equal">"= "</string>
+    <string name="spa">Space</string>
+    <string name="fac">N!</string>
+    <string name="Exclamation">"! "</string>
+    <string name="Dul">Dul</string>
+    <string name="Oct">Oct</string>
+    <string name="Dec">Dec</string>
+    <string name="RealClean">""</string>
+    <string name="ERROR">ERROR!</string>
+    <string name="Dot">.</string>
+    <string name="ERRORSentence">You have some error about your operation.</string>
 </resources>
