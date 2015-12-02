@@ -25,3 +25,7 @@ proguard/
 
 # Log Files
 *.log
+
+.DS_Store
+	app/.DS_Store
+	app/src/.DS_Store
