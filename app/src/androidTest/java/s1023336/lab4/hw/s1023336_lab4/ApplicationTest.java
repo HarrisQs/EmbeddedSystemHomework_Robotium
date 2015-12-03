@@ -18,6 +18,8 @@ public class ApplicationTest extends ActivityInstrumentationTestCase2<MainActivi
     }
     public void testBasicAdd() throws Exception
     {
+//---------------------ADD TEST-------------------
+        solo.clickOnButton("Clean");
         solo.clickOnButton("4");
         solo.clickOnButton("9");
         solo.clickOnButton("2");
@@ -28,8 +30,30 @@ public class ApplicationTest extends ActivityInstrumentationTestCase2<MainActivi
         solo.clickOnButton("Space");
         solo.clickOnButton("+");
         solo.clickOnButton("=");
-        boolean notesFound = solo.searchText("777");
-        assertTrue("Note 1 and/or Note 2 are not found", notesFound);
-
+        boolean AddWrong = solo.searchText("777");
+        assertTrue("Add Wrong", AddWrong);
+//---------------------SUB TEST-------------------
+        solo.clickOnButton("Clean");
+        solo.clickOnButton("5");
+        solo.clickOnButton("Space");
+        solo.clickOnButton("6");
+        solo.clickOnButton("Space");
+        solo.clickOnButton("-");
+        solo.clickOnButton("=");
+        boolean SubWrong = solo.searchText("-1");
+        assertTrue("Sub Wrong", SubWrong);
+//-------------------Mul TEST--------------------
+        solo.clickOnButton("Clean");
+        solo.clickOnButton("8");
+        solo.clickOnButton("9");
+        solo.clickOnButton("Space");
+        solo.clickOnButton("5");
+        solo.clickOnButton("7");
+        solo.clickOnButton("Space");
+        solo.clickOnButton("*");
+        solo.clickOnButton("=");
+        boolean MulWrong = solo.searchText("5073");
+        assertTrue("Mul Wrong", MulWrong);
     }
+
 }
