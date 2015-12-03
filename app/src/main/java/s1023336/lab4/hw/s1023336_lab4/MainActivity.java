@@ -257,10 +257,10 @@ public class MainActivity extends AppCompatActivity {
                         case R.id.btn_fac:
                             strResult += getString(R.string.Exclamation);
                             strResult += getString(R.string.equal);
-                            if(answer.compareTo(NintyNine) == -1)
+                            //if(answer.compareTo(NintyNine) == -1)
                                 strResult += String.format("%E", Spaciel.rfc(answer));
-                            else
-                                strResult = "溢位!";
+                            //else
+                              //  strResult = "溢位!";
                             strTEMP = strResult;
                             break;
                         default:
@@ -288,7 +288,7 @@ public class MainActivity extends AppCompatActivity {
         CleanButton = new View.OnClickListener() {
             public void onClick(View v) {
                 strTEMP = "";
-                mtv_output.setText(" ");
+                //mtv_output.setText(" ");
                 rememberStack.clear();
             }
         };
@@ -449,7 +449,6 @@ class specialCaculate {
             String[]  s8  =  {  "0",  "1",  "2",  "3",  "4",  "5",  "6",  "7"  };
             String[]  s2  =  {  "000",  "001",  "010",  "011",  "100",  "101",  "110",  "111"  };
             int  chang  =  num.length();
-            String[]  xian  =  new  String[chang];
             while(chang%3 != 0){
                 num = "0" + num;
                 chang  =  num.length();
