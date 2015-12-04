@@ -16,6 +16,7 @@ public class ApplicationTest extends ActivityInstrumentationTestCase2<MainActivi
     public void tearDown() throws Exception {
         solo.finishOpenedActivities();
     }
+    /*
     public void testBasicAdd() throws Exception
     {
         solo.clickOnButton("4");
@@ -185,7 +186,6 @@ public class ApplicationTest extends ActivityInstrumentationTestCase2<MainActivi
         boolean Posfix1Wrong = solo.searchText("-237");
         assertTrue("Posfix1 Wrong", Posfix1Wrong);
     }
-
    public void testIPosfix2() throws Exception
    {
        solo.clickOnButton("7");
@@ -207,28 +207,26 @@ public class ApplicationTest extends ActivityInstrumentationTestCase2<MainActivi
    public void testJPoint1() throws Exception
    {
        solo.clickOnButton("4");
-       solo.clickOnButton(".");
+       solo.clickOnButton("．");
        solo.clickOnButton("8");
        solo.clickOnButton("Space");
        solo.clickOnButton("5");
-       solo.clickOnButton(".");
+       solo.clickOnButton("．");
        solo.clickOnButton("7");
        solo.clickOnButton("Space");
        solo.clickOnButton("+");
-       solo.clickOnButton("Space");
        solo.clickOnButton("0");
-       solo.clickOnButton(".");
+       solo.clickOnButton("．");
        solo.clickOnButton("5");
        solo.clickOnButton("Space");
        solo.clickOnButton("/");
-       solo.clickOnButton("Space");
        solo.clickOnButton("8");
-       solo.clickOnButton(".");
+       solo.clickOnButton("．");
        solo.clickOnButton("6");
-       solo.clickOnButton("*");
        solo.clickOnButton("Space");
+       solo.clickOnButton("*");
        solo.clickOnButton("1");
-       solo.clickOnButton(".");
+       solo.clickOnButton("．");
        solo.clickOnButton("9");
        solo.clickOnButton("Space");
        solo.clickOnButton("-");
@@ -239,8 +237,8 @@ public class ApplicationTest extends ActivityInstrumentationTestCase2<MainActivi
    public void testKPoint2() throws Exception
    {
        solo.clickOnButton("0");
-       solo.clickOnButton(".");
-       solo.clickOnButton(".");
+       solo.clickOnButton("．");
+       solo.clickOnButton("．");
        solo.clickOnButton("2");
        boolean Point2Wrong = solo.searchText("0.2");
        assertTrue("Point2 Wrong", Point2Wrong);
@@ -278,10 +276,12 @@ public class ApplicationTest extends ActivityInstrumentationTestCase2<MainActivi
        solo.clickOnButton("N!");
        solo.clickOnButton("=");
    }
-
+*/
     public void testNMy1() throws Exception//沒有處理CLean的情況
     {
+        solo.clickOnButton("5");
         solo.clickOnButton("1");
+        solo.clickOnButton("2");
         solo.clickOnButton("Space");
         solo.clickOnButton("2");
         solo.clickOnButton("5");
@@ -290,12 +290,12 @@ public class ApplicationTest extends ActivityInstrumentationTestCase2<MainActivi
         solo.clickOnButton("/");
         solo.clickOnButton("=");
         solo.clickOnButton("Space");
-        solo.clickOnButton("2");
+        solo.clickOnButton("9");
         solo.clickOnButton("Space");
         solo.clickOnButton("-");
         solo.clickOnButton("=");
         solo.clickOnButton("Clean");
-        boolean DivWrong = solo.searchText("");
+        boolean DivWrong = !solo.searchText("-7");
         assertTrue("Div Wrong", DivWrong);
     }
    }

@@ -134,8 +134,8 @@ public class MainActivity extends AppCompatActivity {
                     strTEMP += getString(R.string.Nine);
                     break;
                 case R.id.btn_dot:
-                    strResult += getString(R.string.Dot);
-                    strTEMP += getString(R.string.Dot);
+                    strResult += ".";
+                    strTEMP += ".";
                     break;
             }
             mtv_output.setText(strResult);

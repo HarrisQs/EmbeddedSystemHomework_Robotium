@@ -25,6 +25,6 @@
     <string name="Dec">Dec</string>
     <string name="RealClean">""</string>
     <string name="ERROR">ERROR!</string>
-    <string name="Dot">.</string>
+    <string name="Dot">．</string>
     <string name="ERRORSentence">You have some error about your operation.</string>
 </resources>
