@@ -9,7 +9,7 @@ You should use `Robotium` library, you can download it in [Robotium](https://git
 
 ## Installation
 
-You can use git clone git@github.com:HarrisQs/DropDrip.git to clone this project, then compile it with android studio 1.4.1.
+You can use git clone `git@github.com:HarrisQs/RobotiumSample.git` to clone this project, then compile it with android studio 1.4.1.
 
 Then you can use android Tests to run tests.
 
