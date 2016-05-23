@@ -15,7 +15,7 @@ Then you can use android Tests to run tests.
 
 ## API Reference
 
-* [A file to teach Robotium](https://goo.gl/VED8Xjs)
+* [A file to teach Robotium](https://goo.gl/lrHiwE)
 * [Robotium @ GitHub](https://github.com/RobotiumTech/robotium)
 
 ## Contributors
